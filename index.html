@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="" class="navbar-brand">
+                    <strong>
+                        <span class="text-danger">Spicy</span> & Spoon
+                    </strong>
+                </a>
+                <button class="navbar-toggler" data-bs-target="#myNav" data-bs-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#more" data-bs-toggle="offcanvas" class="nav-link">More</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Offcanvas Starts Here-->
+    <div class=" offcanvas offcanvas-end" id="more" data-bs-backdrop="static">
+        <div class="offcanvas-header">
+            <h4 class="offcanvas-title">Follow for More</h4>
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatibus incidunt expedita delectus
+                inventore, quasi minima vel. Dolorem officiis impedit sunt! Deserunt expedita sit accusantium architecto
+                quaerat, minus repellat consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis ducimus ipsa est facilis provident accusantium culpa modi, incidunt quam ea vel inventore
+                mollitia quidem adipisci ratione. Similique exercitationem eligendi eius!</p>
+        </div>
+    </div>
+    <!--Offcanvas Ends Here-->
+
+    <section class=" container-fluid p-0">
+        <div class=" carousel slide" data-bs-ride="carousel" id="mainSlider">
+            <div class=" carousel-indicators">
+                <button data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#mainSlider" data-bs-slide-to="1"></button>
+                <button data-bs-target="#mainSlider" data-bs-slide-to="2"></button>
+            </div>
+            <div class=" carousel-inner">
+                <div class="carousel-item active">
+                    <div class="banner1">
+                        <h1> Savor the Spice, Love the Taste</h1>
+                        <p>Experience the authentic flavors of India — freshly made, every day. </p>
+                        <button class="btn btn-danger">View Menu</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="banner2">
+                        <h1> Where Every Meal Feels Like Home</h1>
+                        <p>Cozy ambiance, soulful dishes, and heartfelt hospitality await you.</p>
+                        <button data-bs-target="#booking" data-bs-toggle="modal" class="btn btn-success">Book a
+                            Table</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="banner3">
+                        <h1>From Our Kitchen to Your Heart</h1>
+                        <p>Order your favorite meals online and enjoy the taste of comfort at home.</p>
+                        <button data-bs-target="#booking" data-bs-toggle="modal" class="btn btn-primary">Order
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#mainSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#mainSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+    <section class="container p-5">
+        <h2>Our Story</h2>
+        <div class="row">
+            <div class="col-lg-8">
+                <p>At Spice & Spoon, food is more than just a meal — it's an experience. Founded with a passion for
+                    authentic flavors and heartfelt hospitality, we aim to bring people together through delicious food
+                    and warm, welcoming service.</p>
+                <p>Our menu is a fusion of traditional recipes and contemporary cooking techniques, prepared daily using
+                    the freshest, locally sourced ingredients. Whether you’re here for a quiet dinner, a family
+                    celebration, or a quick takeaway, we’re committed to making every bite memorable.</p>
+                <p>With a cozy ambiance, carefully curated dishes, and a team that treats you like family, Spice & Spoon
+                    isn’t just a restaurant — it’s your second home for great food and good times.</p>
+                <div id="knowmore" class="collapse">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ratione quod debitis consequatur.
+                        Unde corporis dolore velit deleniti quas laudantium in atque excepturi ex, suscipit maiores
+                        natus itaque harum doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                        doloremque iste minus ipsum error modi, molestiae quasi fugiat! Ea iusto aut consequuntur,
+                        dolorum sapiente distinctio quos minus voluptas iste nulla.</p>
+                </div>
+                <button data-bs-target="#knowmore" data-bs-toggle="collapse">Know More</button>
+
+            </div>
+            <div class="col-lg-4">
+                <img src="assets/food.jpg" class="w-100" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="container p-5 text-center">
+        <h2>Our Menu</h2>
+        <p>Discover a mouthwatering selection of dishes crafted with love, fresh ingredients, and bold flavors.
+            <br>
+            Whether you're craving classic comfort food or modern favorites, we've got something for everyone.
+        </p>
+        <div class="row">
+            <div class="col-md-6 col-lg-4  ">
+                <div class="card text-start">
+                    <div class="card-header">
+                        <span>Starters</span>
+                    </div>
+                    <div class="card-body">
+                        <h5>Crispy Veg Spring Rolls </h5>
+                        <p>Fresh veggies wrapped and fried to golden perfection, served with spicy dip</p>
+                    </div>
+                    <div class="card-footer">
+                        <button data-bs-target="#booking" data-bs-toggle="modal" class="btn btn-primary w-100">Get it
+                            for ₹149</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4  ">
+                <div class="card text-start">
+                    <div class="card-header">
+                        <span>Starters</span>
+                    </div>
+                    <div class="card-body">
+                        <h5>Crispy Veg Spring Rolls </h5>
+                        <p>Fresh veggies wrapped and fried to golden perfection, served with spicy dip</p>
+                    </div>
+                    <div class="card-footer">
+                        <button data-bs-target="#booking" data-bs-toggle="modal" class="btn btn-primary w-100">Get it
+                            for ₹149</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4  ">
+                <div class="card text-start">
+                    <div class="card-header">
+                        <span>Starters</span>
+                    </div>
+                    <div class="card-body">
+                        <h5>Crispy Veg Spring Rolls </h5>
+                        <p>Fresh veggies wrapped and fried to golden perfection, served with spicy dip</p>
+                    </div>
+                    <div class="card-footer">
+                        <button data-bs-target="#booking" data-bs-toggle="modal" class="btn btn-primary w-100">Get it
+                            for ₹149</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4  ">
+                <div class="card text-start">
+                    <div class="card-header">
+                        <span>Starters</span>
+                    </div>
+                    <div class="card-body">
+                        <h5>Crispy Veg Spring Rolls </h5>
+                        <p>Fresh veggies wrapped and fried to golden perfection, served with spicy dip</p>
+                    </div>
+                    <div class="card-footer">
+                        <button data-bs-target="#booking" data-bs-toggle="modal" class="btn btn-primary w-100">Get it
+                            for ₹149</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4  ">
+                <div class="card text-start">
+                    <div class="card-header">
+                        <span>Starters</span>
+                    </div>
+                    <div class="card-body">
+                        <h5>Crispy Veg Spring Rolls </h5>
+                        <p>Fresh veggies wrapped and fried to golden perfection, served with spicy dip</p>
+                    </div>
+                    <div class="card-footer">
+                        <button data-bs-target="#booking" data-bs-toggle="modal" class="btn btn-primary w-100">Get it
+                            for ₹149</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4  ">
+                <div class="card text-start">
+                    <div class="card-header">
+                        <span>Starters</span>
+                    </div>
+                    <div class="card-body">
+                        <h5>Crispy Veg Spring Rolls </h5>
+                        <p>Fresh veggies wrapped and fried to golden perfection, served with spicy dip</p>
+                    </div>
+                    <div class="card-footer">
+                        <button data-bs-target="#booking" data-bs-toggle="modal" class="btn btn-primary w-100">Get it
+                            for ₹149</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4  ">
+                <div class="card text-start">
+                    <div class="card-header">
+                        <span>Starters</span>
+                    </div>
+                    <div class="card-body">
+                        <h5>Crispy Veg Spring Rolls </h5>
+                        <p>Fresh veggies wrapped and fried to golden perfection, served with spicy dip</p>
+                    </div>
+                    <div class="card-footer">
+                        <button data-bs-target="#booking" data-bs-toggle="modal" class="btn btn-primary w-100">Get it
+                            for ₹149</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4  ">
+                <div class="card text-start">
+                    <div class="card-header">
+                        <span>Starters</span>
+                    </div>
+                    <div class="card-body">
+                        <h5>Crispy Veg Spring Rolls </h5>
+                        <p>Fresh veggies wrapped and fried to golden perfection, served with spicy dip</p>
+                    </div>
+                    <div class="card-footer">
+                        <button data-bs-target="#booking" data-bs-toggle="modal" class="btn btn-primary w-100">Get it
+                            for ₹149</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4  ">
+                <div class="card text-start">
+                    <div class="card-header">
+                        <span>Starters</span>
+                    </div>
+                    <div class="card-body">
+                        <h5>Crispy Veg Spring Rolls </h5>
+                        <p>Fresh veggies wrapped and fried to golden perfection, served with spicy dip</p>
+                    </div>
+                    <div class="card-footer">
+                        <button data-bs-target="#booking" data-bs-toggle="modal" class="btn btn-primary w-100">Get it
+                            for ₹149</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Modal Starts Here-->
+    <div class="modal fade" id="booking" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Get Your Seat</h5>
+                    <button data-bs-dismiss="modal" class="btn-close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class=" form-floating mb-3">
+                            <input type="text" class=" form-control" placeholder="" name="" id="">
+                            <label for="">Name</label>
+                        </div>
+                        <div class=" form-floating mb-3">
+                            <input type="text" class=" form-control" placeholder="" name="" id="">
+                            <label for="">Mobile Number</label>
+                        </div>
+
+                        <div class=" form-floating mb-3">
+                            <input type="text" class=" form-control" placeholder="" name="" id="">
+                            <label for="">Email Address</label>
+                        </div>
+                        <input type="datetime-local" class=" form-control mb-3" name="" id="">
+
+                        <div class=" form-floating mb-3">
+                            <input type="number" class=" form-control" placeholder="" name="" id="">
+                            <label for="">No of Pax</label>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" class="btn btn-success" name="" id="">
+                    <button type="button" data-bs-dismiss="modal" class="btn btn-danger">Close</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Ends Here-->
+
+    <footer class="container-fluid p-5 text-bg-dark text-center">
+        <p>Designed and Developed by hellobhargav</p>
+    </footer>
+</body>
+
+</html>
